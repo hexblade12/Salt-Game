@@ -14,8 +14,9 @@ public class ArrayScript : MonoBehaviour
 
        GameObject food = Instantiate(myArrayObjects[randomFood], this.transform.position, Quaternion.identity);
 
+       // Debug.Log("The name of the object is:" + randomFood);
         food.transform.SetParent(roundParent.transform);
-        Debug.Log("The name of the object is:" + randomFood);
+       
     }
 
     
