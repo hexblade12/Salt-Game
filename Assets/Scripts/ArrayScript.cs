@@ -16,7 +16,8 @@ public class ArrayScript : MonoBehaviour
 
        // Debug.Log("The name of the object is:" + randomFood);
         food.transform.SetParent(roundParent.transform);
-       
+        
+
     }
 
     
