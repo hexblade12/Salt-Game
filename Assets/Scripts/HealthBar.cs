@@ -9,11 +9,18 @@ public class HealthBar : MonoBehaviour
     ///float healthChange;
     float healthBarLength = 1;
     public Image bar;
-    
+
+    private void Update()
+    {
+        //Changes the base 100 total health to fit the pixel length
+        healthBarLength = totalHealth / 100;
+        //Changes the size of the health bar (Works)
+        bar.transform.localScale = new Vector2(healthBarLength, 1);
+    }
     public void HealthChange()
     {
         //test for total health
-        totalHealth -= 5;
+        //totalHealth -= 5;
         //Changes the base 100 total health to fit the pixel length
         healthBarLength = totalHealth/100;
         //Changes the size of the health bar (Works)
