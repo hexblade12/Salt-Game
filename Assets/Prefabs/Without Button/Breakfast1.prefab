@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3191122041008259058}
   - component: {fileID: 5828098979986963285}
+  - component: {fileID: 3994753373786819373}
   m_Layer: 0
-  m_Name: blue square test
+  m_Name: Breakfast1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,3 +82,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3994753373786819373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911388788362072213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0337abd9409a904a92e9f9a17e94091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSaltCount: 0
